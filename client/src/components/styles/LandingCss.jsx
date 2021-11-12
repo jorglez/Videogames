@@ -29,7 +29,7 @@ export const LandingButtonCss = styled.button`
   
   &:hover{
     background-color: rgb(2, 109, 2);
-    color: black;
+    color: white;
   }
 `
 export const LandingTitleCss = styled.h1 `

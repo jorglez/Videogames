@@ -1,10 +1,14 @@
 import { TitleCss } from "./styles/HomeCss";
-
+import { Fragment } from "react";
 
 const GameInfo = () => {
-  return ( 
-    <TitleCss> Game Title</TitleCss>
-   );
+
+  return (
+    <Fragment>
+      <TitleCss> Game Title</TitleCss>
+      
+    </Fragment>
+  );
 }
- 
+
 export default GameInfo;

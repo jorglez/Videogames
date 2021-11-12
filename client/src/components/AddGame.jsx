@@ -1,7 +1,12 @@
+import Form from "./Form";
+import { TitleCss } from "./styles/HomeCss";
 
 const AddGame = () => {
   return ( 
-    <h1>Desde AddGame</h1>
+    <section>
+    <TitleCss>Add New Game</TitleCss>
+    <Form/>
+    </section>
    );
 }
  
