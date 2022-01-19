@@ -1,30 +1,12 @@
-import OptionInput from "./OptionInput";
-import { OptionDivCss, TitleCss, TopCss } from "./styles/HomeCss";
+import Top from "./header/Top";
 import { Fragment } from "react"
-import CardSection from "./CardSection";
-import Pagination from "./Pagination";
+import CardSection from "./cardsSection/CardSection";
 
 const Home = () => {
   return (
     <Fragment>
-      <TopCss>
-
-        <OptionDivCss>
-          <OptionInput toSearch="genre" />
-          <OptionInput toSearch="source" />
-        </OptionDivCss>
-
-        <TitleCss>Desde Home</TitleCss>
-
-        <OptionDivCss>
-          <OptionInput toSearch="alphabetical" />
-          <OptionInput toSearch="rank" />
-        </OptionDivCss>
-
-      </TopCss>
-
+      <Top/>
       <CardSection />
-      <Pagination/>
     </Fragment>
   );
 }

@@ -1,9 +1,10 @@
 import Landing from "./components/Landing";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/header/NavBar";
 import AddGame from "./components/AddGame";
 import { Switch, Route } from "react-router-dom"
 import Home from "./components/Home";
 import GameInfo from "./components/GameInfo";
+import LogIn from "./components/LogIn";
 
 function App() {
   return (
@@ -32,6 +33,14 @@ function App() {
           />
           <Route
             path="/game/:gameTitle"
+            render={()=> <GameInfo/>}
+          />
+          <Route
+            path="/log-in"
+            render={()=> <LogIn/> }
+          />
+          <Route
+            path="/sign-in"
             render={()=> <GameInfo/>}
           />
         </Route>

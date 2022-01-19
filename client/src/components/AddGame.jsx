@@ -1,4 +1,4 @@
-import Form from "./Form";
+import Form from "./forms/Form";
 import { TitleCss } from "./styles/HomeCss";
 
 const AddGame = () => {

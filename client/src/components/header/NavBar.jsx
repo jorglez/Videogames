@@ -1,5 +1,5 @@
 import SearchBar from "./SearchBar";
-import { NavBarCss, NavBarLinks } from "./styles/NavBarCss";
+import { NavBarCss, NavBarLinks } from "../styles/NavBarCss";
 import { NavLink } from 'react-router-dom'
 
 
@@ -13,6 +13,12 @@ const NavBar = () => {
         </NavLink>
         <NavLink to="/addGame">
           Add Game
+        </NavLink>
+        <NavLink to={"/log-in"}>
+          Log in
+        </NavLink>
+        <NavLink to={"/sign-in"}>
+          Sign in
         </NavLink>
       </NavBarLinks>
       <SearchBar />

@@ -1,4 +1,4 @@
-import { CardBodyCss, CardCss, CardHeadCss } from "./styles/CardCss";
+import { CardBodyCss, CardCss, CardHeadCss } from "../styles/CardCss";
 
 
 const Card = () => {

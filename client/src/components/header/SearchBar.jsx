@@ -1,4 +1,4 @@
-import { SBInputCss, SButton, SearchBarCss } from "./styles/SearchBarCss";
+import { SBInputCss, SButton, SearchBarCss } from "../styles/SearchBarCss";
 
 const SearchBar = () => {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { AddSelectCss, DynamicSelectCss, FormControlCss, FormCss, SharedRowCss, SubmitButtonCss } from "./styles/FormCss";
+import { AddSelectCss, DynamicSelectCss, FormControlCss, FormCss, SharedRowCss, SubmitButtonCss } from "../styles/FormCss";
 
 
 const Form = () => {
@@ -26,7 +26,7 @@ const Form = () => {
     })
   }
 
-  ///// ===== Add and Delete Functions for Platform and Genre fields =====//
+  ///// ===== "Add and Delete" Functions for Platform and Genre fields =====//
 
   //adds a new object to the plaform array
   const addPlatformField = () => {
